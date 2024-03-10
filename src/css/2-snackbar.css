@@ -1,0 +1,79 @@
+.section-snackbar {
+    padding: 36px 156px;
+}
+
+.form {
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.label-form {
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-form {
+    padding: 8px 16px;
+    height: 40px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+
+.input-form:hover {
+    border-color: black;
+}
+
+.input-form:active {
+    border-color: #4e75ff;
+}
+
+.form-snackbar {
+    padding: 8px 34px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+
+    display: flex;
+    gap: 40px;
+    justify-content: start;
+    align-items: center;
+}
+
+.form-snackbar:hover {
+    border-color: black;
+}
+
+.label-btn {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.input-field {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.form-button {
+    padding: 8px 16px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4e75ff;
+    color: white;
+    font-size: inherit;
+    font-weight: 500;
+}
+
+.form-button:hover {
+    background-color: #6c8cff;
+}
+
+.message {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.5px;
+}
